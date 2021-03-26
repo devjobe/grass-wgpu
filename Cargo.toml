@@ -1,0 +1,22 @@
+[package]
+name = "grass-wgpu"
+version = "0.1.0"
+authors = ["devjobe <git@devjobe.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+image = "0.23"
+winit = "0.24"
+shaderc = { version = "0.7", features = ["build-from-source"] }
+env_logger = "0.8"
+log = "0.4"
+wgpu = "0.7"
+futures = "0.3"
+ultraviolet = { version = "0.8", features = [ "bytemuck" ] }
+notify = "5.0.0-pre.2"
+crossbeam-channel = "0.5.0"
+bytemuck = { version = "1.1", features = [ "derive" ] }
+rand = "0.8.3"
+rand_hc = "0.3.0"
